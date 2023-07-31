@@ -52,7 +52,7 @@ li a:hover{
 }
 @media screen and (max-width: 900px) {
 .homebookcontainer{
-    padding: 4%;
+    padding: 5%;
 }
 }
  .homebookcontainer p:first-child{
@@ -121,11 +121,22 @@ li a:hover{
 .homebookcontainer #btn2:hover{
     background-color: rgb(248, 68, 37);
 }
+.myhomelogo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.myhomelogo img{
+
+    height: 70px;
+    margin: 1%;    
+}
 #myfirstimg{
     background-image: url(hero-image01.png);
     height: 700px;
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
 }
 .font{
     font-family: "DM Serif Display", serif;
@@ -159,7 +170,7 @@ li a:hover{
     left: 340px;
     z-index: 1;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1120px) {
     .img01{
         position:absolute;
         height: 340px;
@@ -206,7 +217,18 @@ padding-top: 100px;
 width: 90%;
 margin: 130px 0px 0px 80px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1120px) {
+    #upcomingbookcontainer{
+    width: 90%;
+    margin: 60px 0px 20px 20px;
+    }
+    #upcomingbookcontainer2{
+    width: 90%;
+    margin: 50px 0px 0px 20px;
+    text-align: justify;
+}
+}
+/* @media screen and (max-width: 600px) {
     #upcomingbookcontainer{
     width: 90%;
     margin: 60px 0px 20px 20px;
@@ -216,7 +238,7 @@ margin: 130px 0px 0px 80px;
     margin: 50px 0px 0px 20px;
     text-align: justify;
     }
-}
+} */
 .img05{
     position: absolute;
     height: 410px;
@@ -229,7 +251,7 @@ margin: 130px 0px 0px 80px;
     left: 140px;
     z-index: 2;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1120px) {
     .img05{
         position: absolute;
         height: 320px;
@@ -259,15 +281,30 @@ margin: 130px 0px 0px 80px;
     color: white;
 }
 .contactdiv{
-    position: absolute;
-    top: 70%;
+    position: relative;
+    margin-top: -6%;
     left: 50%;
     transform: translate(-50%);;
     width: 60%;
-    height: fit-content;
     padding: 60px;
-    z-index: 1;
     background-color: white;
+}
+
+@media screen and (max-width: 1120px) {
+    .contactdiv{
+        width: 90%;
+        margin-top: -15%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contactdiv{
+        width: 90%;
+        margin-top: -30%;
+        position: relative;
+        padding: 30px;
+        background-color: white;
+}
 }
 .footerdiv1{
     position: relative;
