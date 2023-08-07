@@ -191,9 +191,13 @@ li a:hover{
         z-index: 1;
     }
 }
+.autoricon{
+    display: flex;
+}
 .autoricon li{
     border-radius: 50%;
     padding: 5px;
+    margin: 0px 2px 0px 2px;
     width: 37px;
     background-color: rgb(148,102,89);
 }
